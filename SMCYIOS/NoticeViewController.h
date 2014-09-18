@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NoticeViewController.h
 //  SMCYIOS
 //
 //  Created by zhoufan on 14-9-18.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface NoticeViewController : UIViewController
 
 @end

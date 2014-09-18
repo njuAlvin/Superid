@@ -8,6 +8,8 @@
 
 #import "UserCenterViewController.h"
 #import "LoginViewController.h"
+#import "RevealViewController.h"
+#import "ScheduleViewController.h"
 
 @interface UserCenterViewController ()
 
@@ -43,4 +45,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)touchScheduleManager:(id)sender
+{
+    RevealViewController *controller = [RevealViewController shareRevealController];
+    UINavigationController *navController = controller.frontNavViewController;
+    ScheduleViewController *scheduleController = [[ScheduleViewController alloc]init];
+    [navController pushViewController:scheduleController animated:YES];
+    [controller showAllFrontView];
+}
 @end

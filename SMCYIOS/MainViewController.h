@@ -11,5 +11,7 @@
 @interface MainViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (weak, nonatomic) IBOutlet UIView *moreServiceButton;
+@property (weak, nonatomic) IBOutlet UIView *rightViewController;
+@property (weak, nonatomic) IBOutlet UIButton *closeButton;
 
 @end

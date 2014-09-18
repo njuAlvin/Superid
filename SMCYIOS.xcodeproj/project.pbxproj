@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D85D7C7D19CAA7FC00FE4CEA /* NoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D85D7C7B19CAA7FC00FE4CEA /* NoticeViewController.m */; };
+		D85D7C7E19CAA7FC00FE4CEA /* NoticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D85D7C7C19CAA7FC00FE4CEA /* NoticeViewController.xib */; };
+		D85D7C8319CAA83600FE4CEA /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D85D7C8119CAA83600FE4CEA /* ScheduleViewController.m */; };
+		D85D7C8419CAA83600FE4CEA /* ScheduleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D85D7C8219CAA83600FE4CEA /* ScheduleViewController.xib */; };
+		D85D7C8A19CAAB4700FE4CEA /* ScheduleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D85D7C8819CAAB4700FE4CEA /* ScheduleTableViewCell.m */; };
+		D85D7C8B19CAAB4700FE4CEA /* ScheduleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D85D7C8919CAAB4700FE4CEA /* ScheduleTableViewCell.xib */; };
+		D85D7C9119CAAF8A00FE4CEA /* ScheduleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D85D7C8F19CAAF8A00FE4CEA /* ScheduleDetailViewController.m */; };
+		D85D7C9219CAAF8A00FE4CEA /* ScheduleDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D85D7C9019CAAF8A00FE4CEA /* ScheduleDetailViewController.xib */; };
+		D85D7C9519CAB0E300FE4CEA /* ViewDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = D85D7C9419CAB0E300FE4CEA /* ViewDecorator.m */; };
+		D85D7C9A19CAB60800FE4CEA /* AffairsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D85D7C9819CAB60800FE4CEA /* AffairsViewController.m */; };
+		D85D7C9B19CAB60800FE4CEA /* AffairsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D85D7C9919CAB60800FE4CEA /* AffairsViewController.xib */; };
+		D85D7CA019CABB3F00FE4CEA /* UnionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D85D7C9E19CABB3F00FE4CEA /* UnionViewController.m */; };
+		D85D7CA119CABB3F00FE4CEA /* UnionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D85D7C9F19CABB3F00FE4CEA /* UnionViewController.xib */; };
 		D87E09A519CA75DC00212ACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87E09A419CA75DC00212ACE /* Foundation.framework */; };
 		D87E09A719CA75DC00212ACE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87E09A619CA75DC00212ACE /* CoreGraphics.framework */; };
 		D87E09A919CA75DC00212ACE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87E09A819CA75DC00212ACE /* UIKit.framework */; };
 		D87E09AF19CA75DC00212ACE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D87E09AD19CA75DC00212ACE /* InfoPlist.strings */; };
 		D87E09B119CA75DC00212ACE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D87E09B019CA75DC00212ACE /* main.m */; };
 		D87E09B519CA75DC00212ACE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D87E09B419CA75DC00212ACE /* AppDelegate.m */; };
-		D87E09BB19CA75DC00212ACE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D87E09BA19CA75DC00212ACE /* ViewController.m */; };
 		D87E09BD19CA75DC00212ACE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D87E09BC19CA75DC00212ACE /* Images.xcassets */; };
 		D87E09C419CA75DC00212ACE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87E09C319CA75DC00212ACE /* XCTest.framework */; };
 		D87E09C519CA75DC00212ACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87E09A419CA75DC00212ACE /* Foundation.framework */; };
@@ -45,6 +57,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D85D7C7A19CAA7FC00FE4CEA /* NoticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticeViewController.h; sourceTree = "<group>"; };
+		D85D7C7B19CAA7FC00FE4CEA /* NoticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticeViewController.m; sourceTree = "<group>"; };
+		D85D7C7C19CAA7FC00FE4CEA /* NoticeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoticeViewController.xib; sourceTree = "<group>"; };
+		D85D7C8019CAA83600FE4CEA /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		D85D7C8119CAA83600FE4CEA /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		D85D7C8219CAA83600FE4CEA /* ScheduleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleViewController.xib; sourceTree = "<group>"; };
+		D85D7C8719CAAB4700FE4CEA /* ScheduleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTableViewCell.h; sourceTree = "<group>"; };
+		D85D7C8819CAAB4700FE4CEA /* ScheduleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTableViewCell.m; sourceTree = "<group>"; };
+		D85D7C8919CAAB4700FE4CEA /* ScheduleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleTableViewCell.xib; sourceTree = "<group>"; };
+		D85D7C8E19CAAF8A00FE4CEA /* ScheduleDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleDetailViewController.h; sourceTree = "<group>"; };
+		D85D7C8F19CAAF8A00FE4CEA /* ScheduleDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleDetailViewController.m; sourceTree = "<group>"; };
+		D85D7C9019CAAF8A00FE4CEA /* ScheduleDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleDetailViewController.xib; sourceTree = "<group>"; };
+		D85D7C9319CAB0E300FE4CEA /* ViewDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewDecorator.h; sourceTree = "<group>"; };
+		D85D7C9419CAB0E300FE4CEA /* ViewDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewDecorator.m; sourceTree = "<group>"; };
+		D85D7C9719CAB60800FE4CEA /* AffairsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AffairsViewController.h; sourceTree = "<group>"; };
+		D85D7C9819CAB60800FE4CEA /* AffairsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AffairsViewController.m; sourceTree = "<group>"; };
+		D85D7C9919CAB60800FE4CEA /* AffairsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AffairsViewController.xib; sourceTree = "<group>"; };
+		D85D7C9D19CABB3F00FE4CEA /* UnionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnionViewController.h; sourceTree = "<group>"; };
+		D85D7C9E19CABB3F00FE4CEA /* UnionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnionViewController.m; sourceTree = "<group>"; };
+		D85D7C9F19CABB3F00FE4CEA /* UnionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnionViewController.xib; sourceTree = "<group>"; };
 		D87E09A119CA75DC00212ACE /* SMCYIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMCYIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87E09A419CA75DC00212ACE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D87E09A619CA75DC00212ACE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,8 +87,6 @@
 		D87E09B219CA75DC00212ACE /* SMCYIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SMCYIOS-Prefix.pch"; sourceTree = "<group>"; };
 		D87E09B319CA75DC00212ACE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D87E09B419CA75DC00212ACE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D87E09B919CA75DC00212ACE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D87E09BA19CA75DC00212ACE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D87E09BC19CA75DC00212ACE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D87E09C219CA75DC00212ACE /* SMCYIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMCYIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87E09C319CA75DC00212ACE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -109,6 +139,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D85D7C7819CAA7C700FE4CEA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D85D7C9C19CABA8C00FE4CEA /* UnionViewController */,
+				D85D7C9619CAB5BA00FE4CEA /* AffairsViewController */,
+				D85D7C7F19CAA82400FE4CEA /* ScheduleViewController */,
+				D85D7C7919CAA7DC00FE4CEA /* NoticeViewController */,
+				D87E09E919CA782200212ACE /* UserCenterViewController */,
+				D87E09DE19CA775800212ACE /* RevealViewController */,
+				D87E09DB19CA772600212ACE /* MainViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D85D7C7919CAA7DC00FE4CEA /* NoticeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D85D7C7A19CAA7FC00FE4CEA /* NoticeViewController.h */,
+				D85D7C7B19CAA7FC00FE4CEA /* NoticeViewController.m */,
+				D85D7C7C19CAA7FC00FE4CEA /* NoticeViewController.xib */,
+			);
+			name = NoticeViewController;
+			sourceTree = "<group>";
+		};
+		D85D7C7F19CAA82400FE4CEA /* ScheduleViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D85D7C8019CAA83600FE4CEA /* ScheduleViewController.h */,
+				D85D7C8119CAA83600FE4CEA /* ScheduleViewController.m */,
+				D85D7C8219CAA83600FE4CEA /* ScheduleViewController.xib */,
+				D85D7C8719CAAB4700FE4CEA /* ScheduleTableViewCell.h */,
+				D85D7C8819CAAB4700FE4CEA /* ScheduleTableViewCell.m */,
+				D85D7C8919CAAB4700FE4CEA /* ScheduleTableViewCell.xib */,
+				D85D7C8E19CAAF8A00FE4CEA /* ScheduleDetailViewController.h */,
+				D85D7C8F19CAAF8A00FE4CEA /* ScheduleDetailViewController.m */,
+				D85D7C9019CAAF8A00FE4CEA /* ScheduleDetailViewController.xib */,
+			);
+			name = ScheduleViewController;
+			sourceTree = "<group>";
+		};
+		D85D7C9619CAB5BA00FE4CEA /* AffairsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D85D7C9719CAB60800FE4CEA /* AffairsViewController.h */,
+				D85D7C9819CAB60800FE4CEA /* AffairsViewController.m */,
+				D85D7C9919CAB60800FE4CEA /* AffairsViewController.xib */,
+			);
+			name = AffairsViewController;
+			sourceTree = "<group>";
+		};
+		D85D7C9C19CABA8C00FE4CEA /* UnionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D85D7C9D19CABB3F00FE4CEA /* UnionViewController.h */,
+				D85D7C9E19CABB3F00FE4CEA /* UnionViewController.m */,
+				D85D7C9F19CABB3F00FE4CEA /* UnionViewController.xib */,
+			);
+			name = UnionViewController;
+			sourceTree = "<group>";
+		};
 		D87E099819CA75DB00212ACE = {
 			isa = PBXGroup;
 			children = (
@@ -142,15 +232,11 @@
 		D87E09AA19CA75DC00212ACE /* SMCYIOS */ = {
 			isa = PBXGroup;
 			children = (
+				D85D7C7819CAA7C700FE4CEA /* ViewControllers */,
 				D87E09F319CA834600212ACE /* Common */,
 				D87E09EF19CA82E900212ACE /* Util */,
-				D87E09E919CA782200212ACE /* UserCenterViewController */,
-				D87E09DE19CA775800212ACE /* RevealViewController */,
-				D87E09DB19CA772600212ACE /* MainViewController */,
 				D87E09B319CA75DC00212ACE /* AppDelegate.h */,
 				D87E09B419CA75DC00212ACE /* AppDelegate.m */,
-				D87E09B919CA75DC00212ACE /* ViewController.h */,
-				D87E09BA19CA75DC00212ACE /* ViewController.m */,
 				D87E09BC19CA75DC00212ACE /* Images.xcassets */,
 				D87E09AB19CA75DC00212ACE /* Supporting Files */,
 			);
@@ -222,6 +308,8 @@
 		D87E09EF19CA82E900212ACE /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				D85D7C9319CAB0E300FE4CEA /* ViewDecorator.h */,
+				D85D7C9419CAB0E300FE4CEA /* ViewDecorator.m */,
 				D87E09FE19CA84B400212ACE /* UIImage+Overlay.h */,
 				D87E09FF19CA84B400212ACE /* UIImage+Overlay.m */,
 				D87E09F719CA845800212ACE /* UIImage+Text.h */,
@@ -317,12 +405,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D85D7CA119CABB3F00FE4CEA /* UnionViewController.xib in Resources */,
 				D87E09EE19CA783B00212ACE /* UserCenterViewController.xib in Resources */,
+				D85D7C7E19CAA7FC00FE4CEA /* NoticeViewController.xib in Resources */,
 				D87E09BD19CA75DC00212ACE /* Images.xcassets in Resources */,
 				D87E09AF19CA75DC00212ACE /* InfoPlist.strings in Resources */,
 				D87E09E819CA781C00212ACE /* RevealViewController.xib in Resources */,
 				D87E0A0519CA89F300212ACE /* LoginViewController.xib in Resources */,
+				D85D7C9219CAAF8A00FE4CEA /* ScheduleDetailViewController.xib in Resources */,
 				D87E09E319CA77F800212ACE /* MainViewController.xib in Resources */,
+				D85D7C8B19CAAB4700FE4CEA /* ScheduleTableViewCell.xib in Resources */,
+				D85D7C9B19CAB60800FE4CEA /* AffairsViewController.xib in Resources */,
+				D85D7C8419CAA83600FE4CEA /* ScheduleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,14 +436,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				D87E09ED19CA783B00212ACE /* UserCenterViewController.m in Sources */,
-				D87E09BB19CA75DC00212ACE /* ViewController.m in Sources */,
 				D87E09E719CA781C00212ACE /* RevealViewController.m in Sources */,
+				D85D7C9519CAB0E300FE4CEA /* ViewDecorator.m in Sources */,
 				D87E09B519CA75DC00212ACE /* AppDelegate.m in Sources */,
+				D85D7CA019CABB3F00FE4CEA /* UnionViewController.m in Sources */,
 				D87E0A0019CA84B400212ACE /* UIImage+Overlay.m in Sources */,
+				D85D7C9119CAAF8A00FE4CEA /* ScheduleDetailViewController.m in Sources */,
 				D87E09F619CA835C00212ACE /* common.m in Sources */,
+				D85D7C7D19CAA7FC00FE4CEA /* NoticeViewController.m in Sources */,
 				D87E09F919CA845800212ACE /* UIImage+Text.m in Sources */,
+				D85D7C8319CAA83600FE4CEA /* ScheduleViewController.m in Sources */,
+				D85D7C8A19CAAB4700FE4CEA /* ScheduleTableViewCell.m in Sources */,
 				D87E09F219CA82F200212ACE /* ViewFactory.m in Sources */,
 				D87E09B119CA75DC00212ACE /* main.m in Sources */,
+				D85D7C9A19CAB60800FE4CEA /* AffairsViewController.m in Sources */,
 				D87E0A0419CA89F300212ACE /* LoginViewController.m in Sources */,
 				D87E09E219CA77F800212ACE /* MainViewController.m in Sources */,
 			);
@@ -548,6 +648,7 @@
 				D87E09D519CA75DC00212ACE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D87E09D619CA75DC00212ACE /* Build configuration list for PBXNativeTarget "SMCYIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +657,7 @@
 				D87E09D819CA75DC00212ACE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

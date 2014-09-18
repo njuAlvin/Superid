@@ -34,4 +34,6 @@ typedef enum{
 
 -(void)setStatusBarStyleLightContent;
 
+- (void)showAllFrontView;
+
 @end

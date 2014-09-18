@@ -10,12 +10,19 @@
 #import "RevealViewController.h"
 #import "ViewFactory.h"
 #import "common.h"
+#import "AffairsViewController.h"
+#import "UnionViewController.h"
 
 @interface MainViewController ()
 
 @end
 
 @implementation MainViewController
+{
+    AffairsViewController *_affairsController;
+    UnionViewController *_unionController;
+    UIView *_currentView;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -64,7 +71,67 @@
     self.navigationItem.leftBarButtonItems = [NSArray arrayWithObjects:negativeSpacer, [[UIBarButtonItem alloc] initWithCustomView:leftButton] , nil];
     [leftButton addTarget:self action:@selector(leftButtonPress) forControlEvents:UIControlEventTouchUpInside];
 }
+
+#pragma mark - event listener
+- (IBAction)touchClose:(id)sender
+{
+    [self hideRightView];
+}
+
+
+- (IBAction)touchAffairs:(id)sender
+{
+    if(!_affairsController)
+    {
+        _affairsController = [[AffairsViewController alloc]init];
+    }
+    [self initRightView:_affairsController.view];
+}
+- (IBAction)touchUnion:(id)sender
+{
+    if(!_unionController)
+    {
+        _unionController = [[UnionViewController alloc]init];
+    }
+    [self initRightView:_unionController.view];
+}
+
 - (void)leftButtonPress{
     [[RevealViewController shareRevealController] pressMenuButton];
 }
+
+- (void)showRightView
+{
+    [UIView animateWithDuration:0.3//时长
+                          delay:0 //延迟时间
+                        options:UIViewAnimationOptionCurveEaseInOut//动画效果
+                     animations:^{
+                         self.rightViewController.frame = CGRectMake(30, self.rightViewController.frame.origin.y, self.rightViewController.frame.size.width, self.rightViewController.frame.size.height);
+                     } completion:^(BOOL finish){
+                     }];
+}
+
+- (void)hideRightView
+{
+    [UIView animateWithDuration:0.3//时长
+                          delay:0 //延迟时间
+                        options:UIViewAnimationOptionCurveEaseInOut//动画效果
+                     animations:^{
+                         self.rightViewController.frame = CGRectMake(320, self.rightViewController.frame.origin.y, self.rightViewController.frame.size.width, self.rightViewController.frame.size.height);
+                     } completion:^(BOOL finish){
+                     }];
+
+}
+
+- (void)initRightView:(UIView *)view
+{
+    [_currentView removeFromSuperview];
+    _currentView = view;
+    _currentView.frame = CGRectMake(self.closeButton.frame.size.width / 2, self.closeButton.frame.size.height / 2, _currentView.frame.size.width, _currentView.frame.size.height);
+    [self.rightViewController insertSubview:_currentView belowSubview
+                                           :self.closeButton];
+    [self showRightView];
+
+}
+
 @end

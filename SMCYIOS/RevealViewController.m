@@ -208,6 +208,25 @@ static RevealViewController *revealViewController;
     [self setNeedsStatusBarAppearanceUpdate];
 }
 
+- (void)showAllFrontView
+{
+    [UIView animateWithDuration:0.3//时长
+                          delay:0 //延迟时间
+                        options:UIViewAnimationOptionCurveEaseInOut//动画效果
+                     animations:^{
+                         self.frontView.transform = CGAffineTransformMakeScale(1, 1);
+                         self.frontView.frame = originRect;
+                         //                         self.rearView.alpha = 0;
+                     } completion:^(BOOL finish){
+                         hiddenView.hidden = YES;
+                     }];
+    
+    _barStyle = UIStatusBarStyleDefault;
+    
+    [self setNeedsStatusBarAppearanceUpdate];
+
+}
+
 #pragma mark - gesture event
 - (void)panGestureRecognized:(UIPanGestureRecognizer *)sender
 {
@@ -306,8 +325,10 @@ static RevealViewController *revealViewController;
                      }];
     
     _barStyle = UIStatusBarStyleDefault;
+  
     [self setNeedsStatusBarAppearanceUpdate];
 }
+
 
 
 #pragma mark - status bar style

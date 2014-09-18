@@ -13,8 +13,8 @@
 -(UIImage *)addText:(UIImage *)img text:(NSString *)text1;
 
 -(UIImage *)addLabel:(UILabel *)label;
--(UIImage *) addLabel:(UILabel *)label gap:(CGFloat)gap;
+-(UIImage *)addLabel:(UILabel *)label gap:(CGFloat)gap;
 
--(UIImage*) addLabelInCenter:(UILabel *)label;
+-(UIImage*)addLabelInCenter:(UILabel *)label;
     
 @end
