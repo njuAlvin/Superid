@@ -12,6 +12,8 @@
 #import "common.h"
 #import "AffairsViewController.h"
 #import "UnionViewController.h"
+#import "UserInfoViewController.h"
+#import "MyAffairsViewController.h"
 
 @interface MainViewController ()
 
@@ -21,6 +23,7 @@
 {
     AffairsViewController *_affairsController;
     UnionViewController *_unionController;
+    MyAffairsViewController *_myAffairsController;
     UIView *_currentView;
 }
 
@@ -73,9 +76,24 @@
 }
 
 #pragma mark - event listener
+- (IBAction)touchUserInfo:(id)sender
+{
+    UserInfoViewController *controller = [[UserInfoViewController alloc]init];
+    [self.navigationController pushViewController:controller animated:YES];
+}
+
+
 - (IBAction)touchClose:(id)sender
 {
     [self hideRightView];
+}
+- (IBAction)touchMyAffairs:(id)sender
+{
+    if(!_myAffairsController)
+    {
+        _myAffairsController = [[MyAffairsViewController alloc]init];
+    }
+    [self initRightView:_myAffairsController.view];
 }
 
 
