@@ -2,8 +2,8 @@
 //  LoginViewController.m
 //  SMCYIOS
 //
-//  Created by zhoufan on 14-9-18.
-//  Copyright (c) 2014年 zhoufan. All rights reserved.
+//  Created by yangwen on 14-9-18.
+//  Copyright (c) 2014年 yangwen. All rights reserved.
 //
 
 #import "LoginViewController.h"
@@ -40,5 +40,14 @@
     MainViewController *controller = [[MainViewController alloc]init];
     [self.navigationController pushViewController:controller animated:YES];
 }
+- (IBAction)editExit:(id)sender {
+    [sender resignFirstResponder];
+}
+
+- (IBAction)backgroundTap:(id)sender {
+    [_userField resignFirstResponder];
+    [_keyField resignFirstResponder];
+}
+
 
 @end
