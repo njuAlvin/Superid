@@ -12,8 +12,10 @@
 #import "common.h"
 #import "AffairsViewController.h"
 #import "UnionViewController.h"
-#import "UserInfoViewController.h"
+#import "UserModuleViewController.h"
+#import "UnionCreateViewController.h"
 #import "MyAffairsViewController.h"
+#import "AffairsCreateViewController.h"
 
 @interface MainViewController ()
 
@@ -24,6 +26,7 @@
     AffairsViewController *_affairsController;
     UnionViewController *_unionController;
     MyAffairsViewController *_myAffairsController;
+    UserModuleViewController *_userModuleController;
     UIView *_currentView;
 }
 
@@ -78,8 +81,12 @@
 #pragma mark - event listener
 - (IBAction)touchUserInfo:(id)sender
 {
-    UserInfoViewController *controller = [[UserInfoViewController alloc]init];
-    [self.navigationController pushViewController:controller animated:YES];
+    if(!_userModuleController)
+    {
+        _userModuleController = [[UserModuleViewController alloc]init];
+        _userModuleController.navController = self.navigationController;
+    }
+    [self initRightView:_userModuleController.view];
 }
 
 
@@ -116,6 +123,16 @@
 
 - (void)leftButtonPress{
     [[RevealViewController shareRevealController] pressMenuButton];
+}
+- (IBAction)touchCreateUnion:(id)sender
+{
+    UnionCreateViewController *controller = [[UnionCreateViewController alloc]init];
+    [self.navigationController pushViewController:controller animated:YES];
+}
+- (IBAction)touchCreateAffairs:(id)sender
+{
+    AffairsCreateViewController *controller = [[AffairsCreateViewController alloc]init];
+    [self.navigationController pushViewController:controller animated:YES];
 }
 
 - (void)showRightView
