@@ -25,6 +25,7 @@
 		D85BC29319CBDA2700FE43C6 /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D85BC28619CBDA2700FE43C6 /* grayArrow@2x.png */; };
 		D85BC29419CBDA2700FE43C6 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D85BC28719CBDA2700FE43C6 /* whiteArrow.png */; };
 		D85BC29519CBDA2700FE43C6 /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D85BC28819CBDA2700FE43C6 /* whiteArrow@2x.png */; };
+		D85BC29819CBF44600FE43C6 /* iToast.m in Sources */ = {isa = PBXBuildFile; fileRef = D85BC29719CBF44600FE43C6 /* iToast.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D85D7C7D19CAA7FC00FE4CEA /* NoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D85D7C7B19CAA7FC00FE4CEA /* NoticeViewController.m */; };
 		D85D7C7E19CAA7FC00FE4CEA /* NoticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D85D7C7C19CAA7FC00FE4CEA /* NoticeViewController.xib */; };
 		D85D7C8319CAA83600FE4CEA /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D85D7C8119CAA83600FE4CEA /* ScheduleViewController.m */; };
@@ -111,6 +112,8 @@
 		D85BC28619CBDA2700FE43C6 /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
 		D85BC28719CBDA2700FE43C6 /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
 		D85BC28819CBDA2700FE43C6 /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
+		D85BC29619CBF44600FE43C6 /* iToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iToast.h; sourceTree = "<group>"; };
+		D85BC29719CBF44600FE43C6 /* iToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iToast.m; sourceTree = "<group>"; };
 		D85D7C7A19CAA7FC00FE4CEA /* NoticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticeViewController.h; sourceTree = "<group>"; };
 		D85D7C7B19CAA7FC00FE4CEA /* NoticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticeViewController.m; sourceTree = "<group>"; };
 		D85D7C7C19CAA7FC00FE4CEA /* NoticeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoticeViewController.xib; sourceTree = "<group>"; };
@@ -209,6 +212,8 @@
 		D85BC26A19CBD9A500FE43C6 /* iToast */ = {
 			isa = PBXGroup;
 			children = (
+				D85BC29619CBF44600FE43C6 /* iToast.h */,
+				D85BC29719CBF44600FE43C6 /* iToast.m */,
 				D85BC26B19CBD9AF00FE43C6 /* IToastUtil.h */,
 				D85BC26C19CBD9AF00FE43C6 /* IToastUtil.m */,
 			);
@@ -492,8 +497,8 @@
 			buildConfigurationList = D87E09D319CA75DC00212ACE /* Build configuration list for PBXNativeTarget "SMCYIOS" */;
 			buildPhases = (
 				59A2F06FA5D84DAABA524A94 /* Check Pods Manifest.lock */,
-				D87E099D19CA75DC00212ACE /* Sources */,
 				D87E099E19CA75DC00212ACE /* Frameworks */,
+				D87E099D19CA75DC00212ACE /* Sources */,
 				D87E099F19CA75DC00212ACE /* Resources */,
 				0D9F01FF486C47259E943D0A /* Copy Pods Resources */,
 			);
@@ -641,6 +646,7 @@
 				D87E09ED19CA783B00212ACE /* UserCenterViewController.m in Sources */,
 				D87E09E719CA781C00212ACE /* RevealViewController.m in Sources */,
 				D85D7C9519CAB0E300FE4CEA /* ViewDecorator.m in Sources */,
+				D85BC29819CBF44600FE43C6 /* iToast.m in Sources */,
 				D87E09B519CA75DC00212ACE /* AppDelegate.m in Sources */,
 				D85D7CA019CABB3F00FE4CEA /* UnionViewController.m in Sources */,
 				D80BB6BA19CAC940005B0173 /* UserModuleViewController.m in Sources */,

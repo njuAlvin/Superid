@@ -8,7 +8,6 @@
 
 #import "IToastUtil.h"
 #import "iToast.h"
-#import "StringLocalizationUtil.h"
 
 @implementation IToastUtil{
         iToast *_myToast;
@@ -23,7 +22,7 @@
                    {
                        if(!_myToast)
                        {
-                           _myToast = [iToast makeText:[StringLocalizationUtil localizedStringWithKey:@"NO_MORE_CONTENTS_TO_SHOW"]];
+                           
                            [_myToast setGravity:iToastGravityCenter];
                            [_myToast setUseShadow:NO];
                            [_myToast setBgAlpha:1];
