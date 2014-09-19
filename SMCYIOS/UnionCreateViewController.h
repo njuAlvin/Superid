@@ -2,7 +2,7 @@
 //  UnionCreateViewController.h
 //  SMCYIOS
 //
-//  Created by zhoufan on 14-9-19.
+//  Created by zhoufan on 14-9-15.
 //  Copyright (c) 2014年 zhoufan. All rights reserved.
 //
 

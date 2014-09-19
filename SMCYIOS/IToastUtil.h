@@ -2,8 +2,8 @@
 //  IToastUtil.h
 //  SouthRailIOS
 //
-//  Created by Intern on 5/7/14.
-//  Copyright (c) 2014 Xu Xian. All rights reserved.
+//  Created by yangwen on 14-9-16.
+//  Copyright (c) 2014年 yangwen. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

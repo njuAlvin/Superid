@@ -2,9 +2,8 @@
 //  UIImage+Overlay.m
 //  EXPOIOS
 //
-//  Created by Xu Xian on 14-1-19.
-//  Copyright (c) 2014年 Xu Xian. All rights reserved.
-//
+//  Created by yangwen on 14-9-17.
+//  Copyright (c) 2014年 yangwen. All rights reserved.
 
 #import "UIImage+Overlay.h"
 

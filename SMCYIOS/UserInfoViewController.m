@@ -2,7 +2,7 @@
 //  UserInfoViewController.m
 //  SMCYIOS
 //
-//  Created by yangwen on 14-9-18.
+//  Created by yangwen on 14-9-15.
 //  Copyright (c) 2014年 yangwen. All rights reserved.
 //
 

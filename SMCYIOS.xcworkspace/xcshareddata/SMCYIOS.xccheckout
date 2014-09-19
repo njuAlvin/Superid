@@ -5,31 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-<<<<<<< HEAD
-	<string>3BAB4B51-DE50-46B7-A998-AA0AA118BCB0</string>
-=======
-	<string>6BEF73AD-65F5-4BE1-AB19-0CF7A7BA033E</string>
->>>>>>> 7dc8d931dc80d8204f36cf549c445c1164ef84f2
+	<string>917189D8-A7C1-4982-9A14-7C2E766E5013</string>
 	<key>IDESourceControlProjectName</key>
 	<string>SMCYIOS</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-<<<<<<< HEAD
-		<key>ACF16994-55D1-4A76-A5F7-B2ACBA00A3C3</key>
-=======
 		<key>BECAD689-BE86-4AF6-8F60-341DEA01593B</key>
->>>>>>> 7dc8d931dc80d8204f36cf549c445c1164ef84f2
 		<string>https://github.com/njuAlvin/Superid.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>SMCYIOS.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-<<<<<<< HEAD
-		<key>ACF16994-55D1-4A76-A5F7-B2ACBA00A3C3</key>
-=======
 		<key>BECAD689-BE86-4AF6-8F60-341DEA01593B</key>
->>>>>>> 7dc8d931dc80d8204f36cf549c445c1164ef84f2
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -37,22 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-<<<<<<< HEAD
-	<string>ACF16994-55D1-4A76-A5F7-B2ACBA00A3C3</string>
-=======
 	<string>BECAD689-BE86-4AF6-8F60-341DEA01593B</string>
->>>>>>> 7dc8d931dc80d8204f36cf549c445c1164ef84f2
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-<<<<<<< HEAD
-			<string>ACF16994-55D1-4A76-A5F7-B2ACBA00A3C3</string>
-=======
 			<string>BECAD689-BE86-4AF6-8F60-341DEA01593B</string>
->>>>>>> 7dc8d931dc80d8204f36cf549c445c1164ef84f2
 			<key>IDESourceControlWCCName</key>
 			<string>Superid</string>
 		</dict>
